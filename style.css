@@ -57,6 +57,8 @@
     position: absolute;
     right: 0;
     z-index: -2;
+  }
+  .rotation {
     animation: rotate 20s linear infinite;
   }
   @keyframes rotate {
@@ -309,6 +311,8 @@
     width: 620px;
     height: 608px;
     margin-right: 48px;
+    object-fit: cover;
+    object-position: left top;
   }
   .khan__buy-link {
     line-height: 42px;
@@ -399,24 +403,34 @@
     width: 877px;
     height: 877px;
     z-index: -1;
-    animation: rotate 2s linear infinite;
   }
-  @keyframes rotate {
-    from {
-      transform: rotate(-360deg);
-    }
-  }
+  
 
   .resources {
     margin: 100px auto 217px auto;
   }
-  .resources__logo-zone {
+    .resources__logo-zone {
     width: 1100px;
     margin: 80px auto 0 auto;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+  .resources__logo-link {
+    height: 38px;
   }
   .resources__logo {
     width: 270px;
     height: 38px;
+    text-align: center;
+    object-fit: cover;
+    object-position: initial;
+  }
+  .resources__logo:hover {
+    opacity: .3;
   }
 
 

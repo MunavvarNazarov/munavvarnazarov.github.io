@@ -1,2 +1,2 @@
-# munavvarnazarov.github.io
+# MunavvarNazarov.github.io
 birinchi xosting

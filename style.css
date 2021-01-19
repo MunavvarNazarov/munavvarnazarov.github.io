@@ -491,16 +491,21 @@
     height: 16px;
     padding-right: 10px;
   }
-
+  .logo {
+    width: 183px;
+  }
+  .logo_place_footer:hover {
+      opacity: .3;
+  }
+  .logo_place_header:hover {
+	opacity: .3;
+  }
   .header__link:hover {
-      background: slategray;
-      color: springgreen;
+      opacity: .3;
   }
   .feynman__link:hover {
-      background: slategray;
-      color: springgreen;
+      opacity: .3;
   }
   .footer__column-link:hover {
-      background: slategray;
-      color: springgreen;
+      opacity: .3;
   }

@@ -1,5 +1,4 @@
 # MunavvarNazarov.github.io
-birinchi xosting
 
 Научиться учиться. Да, здесь можно научиться учиться.
 

@@ -15,6 +15,27 @@
     z-index: 1;
     overflow: hidden;
   }
+  .lang-link {
+    position: absolute;
+    height: 28px;
+    width: 30px;
+    top: 18px;
+    font-family: Inter;
+    ont-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    text-decoration: none;
+    color: blue;
+  }
+  .header__lang-link_ru {
+    left: 851px;
+    text-decoration: underline;
+  }
+  .header__lang-link_uz {
+    left: 899px;
+  }
   .logo_place_header {
     position: absolute;
     width: 183px;

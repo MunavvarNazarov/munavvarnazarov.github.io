@@ -29,11 +29,11 @@
     text-decoration: none;
     color: blue;
   }
-  .header__lang-link_ru {
+  .link_ru {
     left: 851px;
     text-decoration: underline;
   }
-  .header__lang-link_uz {
+  .link_uz {
     left: 899px;
   }
   .logo_place_header {
